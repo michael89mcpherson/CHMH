@@ -73,7 +73,7 @@ work:
   coverage            : ""                # e.g. geographical or temporal <http://dublincore.org/documents/dcmi-terms/#terms-coverage>
                                           # <Coverage of the Content (RDA 7.3)>
   cover_image:
-    image             : "image-cover.jpg"
+    image             : "image-cover.png"
     creator           : "August Jernberg"
     title             : "Die Besucher vor Rembrandts Nachtwache in Amsterdam"
     date              : "1885"
