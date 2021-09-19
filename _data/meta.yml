@@ -177,7 +177,7 @@ work:
         - label: "Chapter 2 - some text"
           file: "02-00-chapter"
           id: "02-chapter-2"
-          children:
+              children:
             - label: "Section 1"
               file: "02-02-section-1"
               id: "02-chapter-2-section-1"
