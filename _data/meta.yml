@@ -74,12 +74,12 @@ work:
                                           # <Coverage of the Content (RDA 7.3)>
   cover_image:
     image             : "image-cover.png"
-    creator           : "August Jernberg"
-    title             : "Die Besucher vor Rembrandts Nachtwache in Amsterdam"
-    date              : "1885"
-    text              : "The painting depicts a group of people in front of Rembrandt's famous painting <i>The Night Watch</i> at Treppenhuis, Holland. Exhibited at the Malmö Art Museum."
+    creator           : ""
+    title             : ""
+    date              : ""
+    text              : "Work in Progress"
     source            : "Wikimedia commons"
-    source_url        : "https://commons.wikimedia.org/wiki/File:August_Jernberg_-_Treppenhuis_-_Google_Art_Project.jpg"
+    source_url        : ""
     license           : "Public domain"
   identifiers:                            # e.g. <Identifier for the manifestation (RDA 2.15)>
     #isbn              : ""
@@ -91,9 +91,9 @@ work:
   isFamilyFriendly    : true
   genre               : ""
   funder              : ""
-  abstract            : "Abstract text."
+  abstract            : ""
   keywords            : "publishing, book, publishing chain, word processor, desktop publishin software, ebook"
-  abstract_en         : "Abstract text in english."
+  abstract_en         : ""
   keywords_en         : "publishing, book, publishing chain, word processor, desktop publishin software, ebook"
 # ------------------------------------------------------------------------------
 # Contributors <Creator of Work (RDA 19.2)>
