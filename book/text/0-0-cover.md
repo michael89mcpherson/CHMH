@@ -9,7 +9,7 @@ type: cover
 	<div class="cover-book-title">{{title}}</div>
 	<div class="cover-book-subtitle">{{subtitle}}</div>
 </div>
-<div class="cover-image-container"><img class="cover-image" src="{{ site.baseurl }}/images/image-jpg}}" alt="Book image cover"></div>
+<div class="cover-image-container"><img class="cover-image" src="{{ site.baseurl }}/images/image-cover.jpg}}" alt="Book image cover"></div>
 <div class="cover-meta">
 	<div class="cover-date">{{work.date|date: '%Y'}}</div>
 	<div class="cover-publisher">{{work.publisher.name}}</div>
