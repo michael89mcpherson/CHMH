@@ -15,7 +15,12 @@ layout: compress
       <div class="home-heading-creators">{{creators-line}}</div>
       <p><a href="{{work-url-contents-directory}}/{{web-start-page}}">Read the book</a></p>
     </div>
-    
+    <article class="content cover-content">
+      <p>{{project-version}} — {{work.description.full}}</p>
+            
+      {{content}}
+    </article>
+
     {% else %}
     <div class="page-cover">
       <h1>{{ project-name }}</h1>
