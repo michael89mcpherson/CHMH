@@ -153,7 +153,7 @@ work:
       date: "2021-09-17" # YYYY-MM-DD e.g. publication date or last revision
       format: "Digital online" # e.g. Print-on-demand, Digital download, Digital online
       identifier: "" # e.g. ISBN or UUID
-      image: "image-cover.png"
+      image: "image-cover.jpg"
       nav: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
         - label: "Introduction"
           file: "00-introduction"
