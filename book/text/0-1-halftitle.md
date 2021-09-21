@@ -3,7 +3,7 @@ title: Half title
 type: half-title
 ---
 {% include metadata %}
-
+<img src="{{site.baseurl}}/images/image-cover.jpg" alt="" style="width:750px;height:auto;">
 # {{ title }}{% if subtitle %}: {{ subtitle }}{% endif %}
 {:.half-title-title}
 

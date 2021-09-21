@@ -4,7 +4,7 @@ type: colophon
 ---
 
 {% include metadata %}
-
+<img src="{{site.baseurl}}/images/image-cover.jpg" alt="" style="width:750px;height:auto;">
 <div class="colophon-meta">
 <div class="colophon-title">{{title}}</div>
 <div class="colophon-creators">by {% for creator in creators %}{{creator.firstName}} {{creator.lastName}}{% if forloop.last == true %}{% else %}, {% endif %}{% endfor %}</div>

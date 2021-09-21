@@ -3,7 +3,7 @@ title: Cover
 type: cover
 ---
 {% include metadata %}
-
+<img src="{{site.baseurl}}/images/image-cover.jpg" alt="" style="width:750px;height:auto;">
 <div class="cover-header">
 	<div class="cover-creators">{% for creator in creators %}{{creator.firstName}} {{creator.lastName}}{% if forloop.last == true %}{% else %}, {% endif %}{% endfor %}</div>
 	<div class="cover-book-title">{{title}}</div>
