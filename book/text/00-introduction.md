@@ -2,8 +2,8 @@
 title: "Introduction"
 type: chapter
 ---
-<img src="{{site.baseurl}}/images/image-cover.jpg" alt=" style="width:250px;height:auto;">
-    
+<img src="{{site.baseurl}}/images/image-cover.jpg" alt="" style="width:250px;height:auto;">
+
     Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
     
     Quare hoc quidem praeceptum, cuiuscumque est {% cite arribe_conception_2014 %}, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.  
