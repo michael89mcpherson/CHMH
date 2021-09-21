@@ -18,7 +18,7 @@ project:
   # The logo of the organisation, saved web-ready in /assets
   logo: "logo-publisher.png"
   # An image in /assets that stands for the project
-  image: "image-cover.png"
+  image: "image-cover.jpg"
   # Credit line, by default in the footer, overidden in locales.yml
   credit: "Built with [jekyll-book-framework](http://michaelravedoni.github.io/jekyll-book-framework)"
   # Primary language code for this project as a whole
@@ -73,7 +73,7 @@ work:
   coverage            : ""                # e.g. geographical or temporal <http://dublincore.org/documents/dcmi-terms/#terms-coverage>
                                           # <Coverage of the Content (RDA 7.3)>
   cover_image:
-    image             : "image-cover.png"
+    image             : "image-cover.jpg"
     creator           : ""
     title             : ""
     date              : ""
