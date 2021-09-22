@@ -130,8 +130,7 @@ work:
       email           : michael89mcpherson@gmail.com
       twitter         : "@MrMiMc"
       #orcid           : ""
-      sameAs          :
-        - https://michael89mcpherson.github.io/about-me/
+      sameAs          : https://michael89mcpherson.github.io/about-me/
       bio             : "Michael is particularly interested in projects that solve cybersecurity problems using open source tools. If you think I can be helpful to you or would like to connect with me, please feel free to get in touch."
       url             : https://www.linkedin.com/in/michael-mcpherson-264852145/
       url             : https://michael89mcpherson.github.io/about-me/
