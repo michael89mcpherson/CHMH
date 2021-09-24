@@ -202,61 +202,85 @@ work:
       files:
         cover: "0-0-cover"
         body_matter:
-          - file: "00-introduction"   # required. filename if the required file in the 'work/contents' (book/text) directory
-            label: "Introduction"     # optional. label to display
-            id: "introduction"        # required. id for the toc
-            class: "chapter"          # required (for the layout). part, chapter, section, sub-section, glossary, biblio or index
-            level: 1                  # required (integer). level for the toc. 1, 2, 3, 4, etc.
-          - file: "01-00-chapter"
-            label: "1. Chapter 1"
-            id: "chapter-1"
-            class: "chapter"
-            level: 1
-          - file: "01-01-section-1"
-            label: "1.1 Section 1"
-            id: "section-1"
-            class: "section"
-            level: 2
-          - file: "01-02-section-2"
-            label: "1.2 Section 2"
-            id: "section-2"
-            class: "section"
-            level: 2
-          - file: "05-conclusion"
-            label: "Conclusion"
-            id: "conclusion"
-            class: "chapter"
-            level: 1
-          - file: "06-00-appendix"
-            label: "Appendix"
-            id: "a"
-            class: "chapter"
-            level: 1
-          - file: "06-01-appendix-1"
-            label: "Appendix 1"
-            id: "a-1"
-            class: "section"
-            level: 1
-          - file: "100-glossary"
-            label: Glossary
-            id: glossary
-            class: glossary
-            level: 1
-          - file: "102-bibliography"
-            label: Bibliography
-            id: bibliography
-            class: biblio
-            level: 1
-          - file: "06-index"
-            label: Index
-            id: index
-            class: index
-            level: 1
-          - file: "07-conclusion"
-            label: "Conclusion"
-            id: "conclusion"
-            class: "chapter"
-            level: 1  
+          - label: "Introduction"
+          file: "00-introduction"
+          id: "00-introduction"
+        - label: "Chapter 1: Hiring Manager Ideals"
+          file: "01-00-chapter"
+          id: "01-chapter-1"
+        - label: "Chapter 2: Foundation"
+          file: "02-00-chapter"
+          id: "02-chapter-2"
+        - label: "Chapter 3: Preparation"
+          file: "03-00-chapter"
+          id: "03-chapter-3"
+          children:
+            - label: "Your team's culture and diversity"
+              file: "03-01-section-1"
+              id: "03-chapter-3-section-1"
+            - label: "Determine the role and title"
+              file: "03-02-section-2"
+              id: "03-chapter-3-section-2"
+            - label: "Define the salary range for the role"
+              file: "03-03-section-3"
+              id: "03-chapter-3-section-3"
+            - label: "Write a compelling job description"
+              file: "03-04-section-4"
+              id: "03-chapter-3-section-4"
+            - label: "Example job descriptions for common jobs in cyber"
+              file: "03-05-section-5"
+              id: "03-chapter-3-section-5"      
+        - label: "Chapter 4: Execution"
+          file: "04-00-chapter"
+          id: "04-chapter-4"
+          children:
+            - label: "Post the job and attract the right candidates"
+              file: "04-01-section-1"
+              id: "04-chapter-4-section-1"
+            - label: "Working with recruiters"
+              file: "04-02-section-2"
+              id: "04-chapter-4-section-2"
+            - label: "Review the resumes"
+              file: "04-03-section-3"
+              id: "04-chapter-4-section-3"
+            - label: "Conduct the interviews"
+              file: "04-04-section-4"
+              id: "04-chapter-4-section-4"
+            - label: "The selection process"
+              file: "04-05-section-5"
+              id: "04-chapter-4-section-5"    
+            - label: "Make the offer"
+              file: "04-06-section-6"
+              id: "04-chapter-4-section-6"   
+        - label: "Chapter 5: Retention"
+          file: "05-00-chapter"
+          id: "05-chapter-5"
+          children:
+            - label: "Why retention is important"
+              file: "05-01-section-1"
+              id: "05-chapter-5-section-1"
+            - label: "How to retain team members"
+              file: "05-02-section-2"
+              id: "05-chapter-5-section-2"
+            - label: "Show your new hire that you care"
+              file: "05-03-section-3"
+              id: "05-chapter-5-section-3"
+            - label: "Build a high-functioning cybersecurity team"
+              file: "05-04-section-4"
+              id: "05-chapter-5-section-4"
+        - label: "Chapter 6: Departure"
+          file: "06-00-chapter"
+          id: "06-chapter-6"
+          children:
+            - label: "Letting go of poor performers"
+              file: "06-01-section-1"
+              id: "06-chapter-6-section-1"
+            - label: "Offboarding"
+              file: "06-02-section-2"
+              id: "06-chapter-6-section-2"
+        - label: "Conclusion"
+          file: "07-conclusion"
+          id: "conclusion"  
         back_matter:
           - file: "105-back-cover"    # required. filename if the required file in the 'work/contents' (book/text) directory
             id: "back-cover"          # optional (for layout). We recommend to put the same value as the 'type' value in the md file
