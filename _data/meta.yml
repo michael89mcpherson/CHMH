@@ -202,7 +202,7 @@ work:
       files:
         cover: "0-0-cover"
         body_matter:
-          - label: "Introduction"
+        - label: "Introduction"
           file: "00-introduction"
           id: "00-introduction"
         - label: "Chapter 1: Hiring Manager Ideals"
