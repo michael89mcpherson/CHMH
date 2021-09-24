@@ -247,11 +247,16 @@ work:
             id: bibliography
             class: biblio
             level: 1
-          - file: "103-index"
+          - file: "06-index"
             label: Index
             id: index
             class: index
             level: 1
+          - file: "07-conclusion"
+            label: "Conclusion"
+            id: "conclusion"
+            class: "chapter"
+            level: 1  
         back_matter:
           - file: "105-back-cover"    # required. filename if the required file in the 'work/contents' (book/text) directory
             id: "back-cover"          # optional (for layout). We recommend to put the same value as the 'type' value in the md file
